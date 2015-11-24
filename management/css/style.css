@@ -1,0 +1,100 @@
+/*网页初始化*/
+ody, dl, dd, h1, h2, h3, h4, h5, h6, p, form{margin:0;font-family: "Microsoft YaHei",tahoma,arial,宋体;}
+ol,ul{margin:0; padding:0;}
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { display:block;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+img{vertical-align:top;}
+a{color:#000;text-decoration:none;}
+a:hover{text-decoration:none;}
+
+
+/*CSS样式*/
+
+body{
+	background-color: #fff;
+    background-origin: border-box;
+    box-sizing: border-box;
+    color: #303233;
+    font-weight: 100;
+    position: relative;
+}
+.nav {
+/*	background:url(../Function%20display/img/icon_03.png) no-repeat scroll center center;*/
+    height: 64px;
+    width: 160px;
+}
+.popbox{    
+	box-shadow: none;
+    padding: 10px 10px 30px;
+	}
+.popw{
+	width:300px;
+	margin:0 auto;
+	}
+.popbody{
+	padding:0 16px;
+	padding-bottom: 0;
+    padding-top: 0;
+	position: relative;
+}
+.popbody h4 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 16px;
+	text-align:center;
+}
+.form-control {
+    background-color: #fff;
+    border: 1px solid #f7f7f7;
+    display: block;
+    font-size: 16px;
+    padding: 11px 16px;
+    width: 85%;
+}
+.sr-only{
+	position:absolute;
+	width:1px;
+	height:1px;
+	margin:-1px;
+	padding:0;
+	overflow:hidden;
+	clip:rect(0, 0, 0, 0);
+	border:0;
+	}
+input:focus{
+	border-style:solid;
+	border-color:#A09F9F;
+}	
+.popfooter {
+    padding-bottom: 24px;
+    padding-top: 0;
+	padding: 16px;
+    text-align: center;
+    border-top: medium none;
+	margin-bottom: 32px;
+    margin-top: 16px;
+	height: 100px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+	margin-bottom:20px;
+	padding: 11px 16px;
+}
+.retrieve{
+	float:left;
+	margin-top: 5px;
+	}
+.reg{
+	float:right;
+	margin-top: 5px;
+	}

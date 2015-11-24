@@ -1,0 +1,169 @@
+/*公共*/
+a {
+	font-size: 16px;
+}
+a:hover {
+	text-decoration: none;
+}
+body {
+	background-color: #f6f6f6;
+}
+.rbox .loadmore {
+	cursor: pointer;
+	font-size: 14px;
+	margin-top: 1px;
+	padding: 16px 0;
+	text-align: center;
+}
+/*头部导航*/
+#navheader {
+	height: 64px;
+	width: 100%;
+	background-color: #FFFFFF;
+	position: relative;
+	border-bottom: 1px solid #edf0f2;
+}
+#navheader ul li {
+	float: left;
+	margin: 20px;
+}
+.nleft {
+	float: left;
+}
+.nleft span {
+	margin-left: 30px;
+}
+.nright {
+	float: right;
+	height: 64px;
+}
+.form-control {
+	border: 2px solid #DBDBDB;
+	display: block;
+	float: left;
+	font-size: 14px;
+	height: 40px;
+	margin-top: -12px;
+}
+.nright .bluef {
+	font-size: 14px;
+	line-height: 36px;
+	margin-top: -12px;
+	margin-left: 2px;
+}
+.nleft li:hover {
+	background-color: #edf0f2;
+	color: #0e2026;
+}
+.nright li img {
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+	margin-top: -12px;
+}
+img {
+	border: 0 none;
+	max-width: 100%;
+	page-break-inside: avoid;
+	vertical-align: middle;
+}
+/*左侧面导航*/
+.lside_box {
+	float: left;
+	width: 180px;
+	padding: 32px 0 0 32px;
+}
+.lside_box li {
+	width: 160px;
+	text-align: left;
+	padding: 16px 0 16px;
+}
+.lside_box li a {
+	color: #76858c;
+	display: block;
+	line-height: 40px;
+	padding-left: 40px;
+	border-left: 4px solid transparent;
+}
+.lside_box li:hover {
+	background-color: #FFFFFF;
+}
+.lside_box li.on a {
+	color: #0e2026;
+	border-left: 4px solid #3d5159;
+}
+/*右侧详情*/
+.box01{
+	padding: 16px 0px;
+	border: 1px solid #edf0f2;
+	font-size:16px;
+	color: #0e2026;
+}
+.rside_box{
+	background-color: #FFF;
+	margin-left: 220px;
+	margin-right: 32px;
+}
+.orderlist {
+	border: 1px solid #edf0f2;
+	background-color: #fff;
+	margin: 16px 0;
+	min-height: 465px;
+	width: 100%;
+}
+.orderlist table {
+	width: 100%;
+}
+.orderlist table thead tr th {
+	font-weight: 100;
+	color: #76858c;
+	white-space: nowrap;
+	padding: 16px 12px;
+	font-size: 16px;
+}
+.orderlist table thead tr th.id {
+	width: 230px;
+}
+.orderlist table tbody tr td {
+	text-align: center;
+	padding: 12px 16px;
+}
+.orderlist table tbody tr {
+	cursor: pointer;
+	font-size: 14px;
+}
+.orderlist table tbody tr td.id {
+	font-size: 11px;
+	overflow: visible;
+	width: 230px;
+}
+.orderlist table thead tr th.amount, .orderlist table thead tr th.status {
+	padding-left: 0;
+	padding-right: 0;
+	width: 100px;
+}
+.orderlist table thead tr th {
+	color: #76858c;
+	font-weight: 100;
+	padding: 12px 16px;
+	text-align: center;
+}
+.orderlist table thead tr th.date, .orderlist table thead tr th.channel {
+	width: 150px;
+}
+.orderlist table tbody tr td.detail {
+	max-width: 180px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.orderlist table tbody tr td.amount, .orderlist table tbody tr td.channel, .orderlist table tbody tr td.status {
+	padding: 12px 0;
+	text-align: center;
+}
+.orderlist table tbody tr td.channel {
+	max-width: 50px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
